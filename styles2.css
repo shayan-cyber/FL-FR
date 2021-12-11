@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav-link{
+    color: #000;
+    padding-left: 1.3rem;
+    font-size:1.4rem
+}
+
+#header{
+    background: rgb(254,255,148);
+background: linear-gradient(338deg, rgba(254,255,148,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+#signup-form{
+    border-radius: 1.6rem;
+    margin-bottom: -20vh;
+}
+
+#signup_btn{
+    border-radius:1.4rem;
+    padding-right: 1.6rem;
+    padding-left: 1.6rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    font-size: 1.3rem;
+    background-color:#FF5403;
+    border: 0
+
+
+    
+}
+
+#F{
+    font-size: 7vw;
+    color: #ffa500;
+
+   
+
+}
+#header_title{
+    font-size:4vw
+}
+#slogan{
+    font-size:1.5rem;
+    
+}
+
+
+#plate{
+   max-width: 100%;
+} 
+
+#about{
+    background-image: url(images/about.jpg);
+    background-size: cover;
+
+}
+
+
+#carousel-img{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    border-radius:2rem
+    
+}
+
+#carousel-card{
+    border-radius: 2rem;
+}
+
+
+#chat{
+    background-color:#FF5403;
+    border-radius: 2rem;
+    padding:1rem;
+    color: #fff;
+}
+
+#que{
+    background-color: rgb(254,255,148);
+    border: 0;
+    border-radius:2rem;
+    padding: 1.5rem;
+    margin-top: 1rem;
+    position: relative;
+    color: black;
+
+}
+
+#card_title{
+    font-size:1.7rem;
+    font-weight: bolder;
+    color: #000;
+    padding:1.5rem 0 1.5rem 0;
+}
+
+
+
+
+#ans{
+    cursor: pointer;
+    margin-left: 1rem;
+    font-size:2rem;
+    position: absolute;
+}
+
+
+@media only screen and (max-width: 600px) {
+    #F{
+        font-size:12vw;
+    }
+    #header_title{
+        font-size:8vw;
+    }
+}
