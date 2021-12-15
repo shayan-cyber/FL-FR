@@ -24,7 +24,7 @@
     <!-- navbar start -->
 
     <nav
-      class="navbar navbar-expand-lg navbar-light bg-light px-4 py-3 shadow-sm"
+      class="navbar navbar-expand-lg navbar-light px-4 py-3 "
     >
       <div class="container">
         <a class="navbar-brand" href="#">Navbar</a>
@@ -48,15 +48,16 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a  class="nav-link active" href="#">Our Meal Plans</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">FAQ</a>
             </li>
 
-            <li class="nav-item">
-              <a class="nav-link">Disabled</a>
-            </li>
+            
           </ul>
         </div>
       </div>
@@ -85,7 +86,7 @@
 
         <div class="row">
           <div class="col-md-3"></div>
-          <div id="signup-form" class="card shadow-lg px-5 py-4 col-md-6">
+          <div id="signup-form" class="card shadow-lg px-5 py-5 col-md-6">
             <h3 class="card-title mb-4">Sign Up</h3>
 
             <div class="form-floating mb-3">
@@ -158,19 +159,29 @@
     <br /><br />
 
     <div id="meal-plans" class="container mb-5">
-      <div class="row">
+      <div
+        id="meal_plan"
+        class="d-flex justify-content-center text-center py-5 px-3"
+      >
+        <div>
+          <h1>Meal Plans</h1>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo sit
+            delectus vel natus commodi dolores?
+          </p>
+        </div>
+      </div>
+
+      <div class="row" style="margin-top:-25vh">
         <div class="col-md-2"></div>
 
-        <div class="col-md-8">
+        <div class="col-md-8 col-12">
           <div
             id="carouselExampleControls"
             class="carousel slide"
             data-bs-ride="carousel"
           >
-            <div
-              style="padding-left: 6rem; padding-right: 6rem"
-              class="carousel-inner"
-            >
+            <div class="carousel-inner">
               <div class="carousel-item active">
                 <div class="card" id="carousel-card">
                   <img id="carousel-img" src="images/header.jpg" alt="" />
@@ -255,7 +266,7 @@
             >
               <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
               <i
-                style="font-size: 2rem; color: black"
+                id="arrow"
                 class="fas fa-chevron-double-left"
               ></i>
               <span class="visually-hidden">Previous</span>
@@ -267,7 +278,8 @@
               data-bs-slide="next"
             >
               <i
-                style="font-size: 2rem; color: black"
+                
+                id="arrow"
                 class="fas fa-chevron-double-right"
               ></i>
               <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
@@ -282,55 +294,134 @@
 
     <!-- meal plans end -->
 
+
+
+    <!-- why choose us start -->
+    <br>
+    <div class="container mt-5">
+      <div class="text-center">
+        <h1>Why Choose Us?</h1>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-md-6 mt-5">
+
+          <div class="d-flex justify-content-start">
+
+            <div class="card shadow-sm p-4 px-5 mx-3">
+
+              <div class="d-flex justify-content-center">
+                <img style="width:4.8rem;" src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/84/000000/external-diet-diet-and-nutrition-flatart-icons-outline-flatarticons-1.png"/>
+              </div>
+  
+            </div>
+            <div>
+              <h3>Balanced Diet</h3>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore omnis cupiditate voluptate facilis reprehenderit incidunt provident dicta ut a animi!</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-6 mt-5">
+
+          <div class="d-flex justify-content-start">
+
+            <div class="card shadow-sm p-4 px-5 mx-3">
+
+              <div class="d-flex justify-content-center">
+                <img style="width:4.8rem" src="https://img.icons8.com/external-becris-lineal-becris/64/000000/external-diet-literary-genres-becris-lineal-becris.png"/>
+              </div>
+  
+            </div>
+            <div>
+              <h3>Balanced Diet</h3>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore omnis cupiditate voluptate facilis reprehenderit incidunt provident dicta ut a animi!</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-6 mt-5">
+
+          <div class="d-flex justify-content-start">
+
+            <div class="card shadow-sm p-4 px-5 mx-3">
+
+              <div class="d-flex justify-content-center">
+                <img style="width:4.8rem" src="https://img.icons8.com/external-icongeek26-outline-icongeek26/64/000000/external-healthy-fitness-icongeek26-outline-icongeek26.png"/>
+              </div>
+  
+            </div>
+            <div>
+              <h3>Balanced Diet</h3>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore omnis cupiditate voluptate facilis reprehenderit incidunt provident dicta ut a animi!</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-md-6 mt-5">
+
+          <div class="d-flex justify-content-start">
+
+            <div class="card shadow-sm p-4 px-5 mx-3">
+
+              <div class="d-flex justify-content-center">
+                <img style="width:4.8rem" src="https://img.icons8.com/external-tulpahn-detailed-outline-tulpahn/64/000000/external-tasty-heart-feeling-tulpahn-detailed-outline-tulpahn.png"/>
+              </div>
+  
+            </div>
+            <div>
+              <h3>Balanced Diet</h3>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore omnis cupiditate voluptate facilis reprehenderit incidunt provident dicta ut a animi!</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+
+    <!-- why choose us end -->
+
+
+
     <!-- FAQ start -->
-    <br><br>
+    <br /><br />
     <div class="container p-4 mt-5">
-
-
-      <div class="d-flex justify-content-start">
-        <div id="chat">
-          <div class="d-flex justify-content-start align-items-center">
-            <img style="width:3rem"
-              src="https://img.icons8.com/external-emojis-because-i-love-you-royyan-wijaya/52/000000/external-avatar-hana-emojis-general-ii-emojis-because-i-love-you-royyan-wijaya-12.png"
-            />
-            <p class="chat-text mx-2">
-              What do you want to know?
-            </p>
-          </div>
-        </div>
-
+      <div class="d-flex justify-content-center">
+        <img style="width: 10vw" src="images/chat.png" alt="" />
       </div>
+      <h1 class="text-center mt-4">FAQ</h1>
 
-      <div id="questions" class="mb-4 mt-4">
+      <div id="faq-div" class="p-5 mt-5">
 
-        <ul class="list-group" id="ques">
-      
+        <div id="faq-sub-div">
+          <div class="d-flex justify-content-start mt-5">
+            <div id="chat">
+              <div class="d-flex justify-content-start align-items-center">
+                <img style="width:3rem" src="https://img.icons8.com/external-sketchy-juicy-fish/64/000000/external-avatar-user-interface-design-sketchy-sketchy-juicy-fish.png"/>
+                
+                <p class="chat-text mx-2">What do you want to know?</p>
+              </div>
+            </div>
+          </div>
+  
+          <div id="questions" class="mb-4 mt-4">
+            <ul class="list-group" id="ques"></ul>
+          </div>
+  
+          <div class="d-flex justify-content-end mt-4">
+            <div id="chat">
+              <div class="d-flex justify-content-start align-items-center">
+                <img style="width:3rem" src="https://img.icons8.com/external-sketchy-juicy-fish/64/000000/external-avatar-user-interface-design-sketchy-sketchy-juicy-fish.png"/>
+                <p class="chat-text mx-2" id="reply-text">I'll Reply ASAP....</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
         
-          <!-- <li class="list-group-item list-group-item-primary">A simple primary list group item   <button id="ans" onclick="QnA('what is your name ?')">click</button> </li>
-
-
-
-          <li class="list-group-item list-group-item-primary">A simple primary list group item   <button id="ans" onclick="QnA('what do you do ?')">click</button> </li> -->
-        </ul>
-
-      </div>
-      
-
-
-
-
-      <div class="d-flex justify-content-end mt-4">
-        <div id="chat">
-          <div class="d-flex justify-content-start align-items-center">
-            <img style="width:3rem"
-              src="https://img.icons8.com/external-emojis-because-i-love-you-royyan-wijaya/52/000000/external-avatar-hana-emojis-general-ii-emojis-because-i-love-you-royyan-wijaya-12.png"
-            />
-            <p class="chat-text mx-2" id="reply-text">
-              I'll Reply ASAP....
-            </p>
-          </div>
-        </div>
-
       </div>
     </div>
 
